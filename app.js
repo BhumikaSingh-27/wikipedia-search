@@ -3,7 +3,7 @@ const userInput = document.querySelector("#user-input");
 const searchBtn = document.querySelector("#get-result");
 const output = document.querySelector("#output");
 
-const input = userInput.value;
+
 function getURL(text) {
   let serverURL = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${text}`;
   //   console.log(serverURL);
@@ -12,7 +12,7 @@ function getURL(text) {
 
 function display(result) {
   output.innerHTML = " ";
-  output.insertAdjacentHTML("beforeend", `Search results for ${input}`);
+  output.insertAdjacentHTML("beforeend", `Search results for ${userInput.value}`);
   result.forEach((item) => {
     let title = item.title;
     let snippet = item.snippet;
