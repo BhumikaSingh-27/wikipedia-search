@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Courgette&family=Megrim&family=Montserrat+Alternates&family=Nunito+Sans:wght@300;700&family=Pacifico&family=Poor+Story&family=Prompt:ital,wght@0,400;1,300&family=Rampart+One&family=Saira+Extra+Condensed:wght@300&family=Stick+No+Bills:wght@300;600&family=Work+Sans:wght@400;500&display=swap');
+
+body {
+    font-family: 'Combo', cursive;
+}
+
+button {
+    font-family: 'Nunito Sans', sans-serif;
+}
