@@ -1,9 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=Courgette&family=Megrim&family=Montserrat+Alternates&family=Nunito+Sans:wght@300;700&family=Pacifico&family=Poor+Story&family=Prompt:ital,wght@0,400;1,300&family=Rampart+One&family=Saira+Extra+Condensed:wght@300&family=Stick+No+Bills:wght@300;600&family=Work+Sans:wght@400;500&display=swap');
 
 body {
-    font-family: 'Combo', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: auto;
+    padding: 0px;
+
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 0.5rem;
+}
+
+input {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 10%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #fdba74;
 }
 
 button {
     font-family: 'Nunito Sans', sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 0.3rem;
+}
+
+button:hover {
+    background-color: #fdba74;
+}
+
+#output {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    width: 40%;
+    height: 40%;
+    padding: 2rem;
+    border-radius: 0.5rem;
 }
