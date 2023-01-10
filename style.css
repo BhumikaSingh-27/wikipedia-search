@@ -39,6 +39,7 @@ input {
     margin: auto;
     margin-top: 2rem;
     width: 10%;
+    font-size: 20px;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     border: 2px solid var(--secondary-color);
