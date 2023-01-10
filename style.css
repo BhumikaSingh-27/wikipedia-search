@@ -7,12 +7,30 @@ body {
 
 }
 
+:root {
+    --primary-color: blanchedalmond;
+    --secondary-color: #fb923c;
+}
+
 h1 {
     display: block;
     margin: auto;
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: var(--primary-color);
     padding: 0.5rem;
+}
+
+h3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 
 input {
@@ -23,7 +41,7 @@ input {
     width: 10%;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    border: 2px solid #fdba74;
+    border: 2px solid var(--secondary-color);
 }
 
 button {
@@ -39,15 +57,40 @@ button {
 }
 
 button:hover {
-    background-color: #fdba74;
+    background-color: var(--primary-color);
 }
 
-#output {
+div {
+    /* border: 2px solid var(--secondary-color); */
+
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    /* background-color: #ffedd5; */
+}
+
+#change {
     display: block;
     margin: auto;
-    border: 1px solid black;
+    border: 2px solid var(--secondary-color);
     width: 40%;
     height: 40%;
     padding: 2rem;
     border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+}
+
+#change:hover {
+    border-left: 5px solid var(--secondary-color);
+
+}
+
+a {
+    /* padding: 0.5rem; */
+    margin-left: 1rem;
+}
+
+a:hover {
+    color: var(--secondary-color);
 }
